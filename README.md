@@ -52,27 +52,35 @@ model = Sequential([
     Dense(10, activation='softmax')
 ])
 ```
-## 📈 Model Training & Evaluation
-Optimizer: Adam
-Loss Function: Categorical Crossentropy
-Batch Size: 64
-Epochs: 50
-Training Accuracy: ~85%
-Testing Accuracy: ~80%
-## 📊 Results & Performance
-✅ Training & Validation Accuracy Graph
-✅ Confusion Matrix for Predictions
-✅ Classification Report with Precision, Recall, F1-score
+## 📈 Model Training & Evaluation  
+- **Optimizer**: Adam  
+- **Loss Function**: Categorical Crossentropy  
+- **Batch Size**: 64  
+- **Epochs**: 50  
+- **Training Accuracy**: ~85%  
+- **Testing Accuracy**: ~80%  
 
-## 🎯 How to Run the Notebook
-Open Google Colab.
-Upload cifar10_classification.ipynb.
-Run all cells (Training might take 5-10 minutes).
-View model performance graphs and test results.
-## 📜 Future Improvements
-🚀 Use Transfer Learning (Pretrained CNNs like ResNet, VGG-16).
-🚀 Hyperparameter Tuning for better accuracy.
-🚀 Deploy the model as a web application using Flask or Streamlit.
+### 📊 Results & Performance  
+✅ **Training & Validation Accuracy Graph**  
+✅ **Confusion Matrix for Predictions**  
+✅ **Classification Report with Precision, Recall, F1-score**  
 
-## 🔗 Project Links
-🔗 GitHub Repository: CIFAR-10-Classifier
+---
+
+## 🎯 How to Run the Notebook  
+1. **Open Google Colab**.  
+2. **Upload `cifar10_classification.ipynb`**.  
+3. **Run all cells** (Training might take 5-10 minutes).  
+4. **View model performance graphs and test results**.  
+
+---
+
+## 📜 Future Improvements  
+🚀 **Use Transfer Learning** (Pretrained CNNs like ResNet, VGG-16).  
+🚀 **Hyperparameter Tuning** for better accuracy.  
+🚀 **Deploy the model** as a web application using Flask or Streamlit.  
+
+---
+
+## 🔗 Project Links  
+🔗 **GitHub Repository**: [CIFAR-10-Classifier](https://github.com/sarath2230/CIFAR-10-Classifier)  
